@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.io.utkarsh.contact_app.Activity.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_send_contact_to_server"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_hieght"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin"
+        android:textColor="@color/colortext"
+        android:background="@color/colorbackground"
+        android:layout_marginTop="284dp"
+        android:text="@string/btn_send_contact" />
+
+    <Button
+        android:id="@+id/btn_read_contact_from_server"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_hieght"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_below="@+id/btn_send_contact_to_server"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textColor="@color/colortext"
+        android:background="@color/colorbackground"
+        android:text="@string/btn_read_contact" />
+</RelativeLayout>

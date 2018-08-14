@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">contact_app</string>
+    <string name="btn_read_contact">Read All Contacts From Server</string>
+    <string name="btn_send_contact">Send All Contact To Server</string>
+</resources>

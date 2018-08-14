@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_margin">30dp</dimen>
+    <dimen name="right_margin">30dp</dimen>
+    <dimen name="layout_hieght">60dp</dimen>
+    <dimen name="margin_top">74dp</dimen>
+
+</resources>
